@@ -1,0 +1,27 @@
+.product .card .productName {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.product {
+  position: relative;
+}
+.product {
+  background: var(--bs-white);
+  position: relative;
+  height: 100%;
+  transition: all 0.4s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.product .card .badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.productImage {
+  border-radius: 6px;
+}

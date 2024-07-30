@@ -1,0 +1,108 @@
+/* components/OrderDetailsLoader.module.css */
+
+.loaderContainer {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.orderInfo,
+.statusBar,
+.items,
+.summary {
+    margin-bottom: 20px;
+}
+
+.orderId,
+.orderDate,
+.status,
+.item,
+.summaryRow,
+.summaryTotal {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    animation: pulse 1.5s infinite;
+}
+
+.orderId {
+    height: 20px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.orderDate {
+    height: 16px;
+    width: 200px;
+}
+
+.status {
+    height: 40px;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.itemImage {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.itemDetails {
+    flex: 1;
+}
+
+.itemTitle,
+.itemText,
+.itemPrice,
+.itemQuantity,
+.itemSubtotal {
+    height: 16px;
+    margin-bottom: 6px;
+}
+
+.itemTitle {
+    width: 80%;
+}
+
+.itemText {
+    width: 60%;
+}
+
+.itemPrice,
+.itemQuantity,
+.itemSubtotal {
+    width: 50px;
+}
+
+.summaryRow {
+    height: 16px;
+    margin-bottom: 10px;
+}
+
+.summaryTotal {
+    height: 20px;
+    width: 100px;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #e0e0e0;
+    }
+    50% {
+        background-color: #f0f0f0;
+    }
+    100% {
+        background-color: #e0e0e0;
+    }
+}

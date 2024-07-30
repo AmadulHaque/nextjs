@@ -1,0 +1,24 @@
+.css-1u9des2-indicatorSeparator {
+  display: none;
+}
+.css-1dimb5e-singleValue {
+  color: var(--bs-neutral-500);
+  font-size: 14px;
+}
+.css-13cymwt-control {
+  border-color: var(--bs-neutral-300) !important;
+}
+.css-13cymwt-control:focus {
+  border-color: black !important;
+}
+.css-qbdosj-Input {
+  color: var(--bs-neutral-500);
+  font-size: 14px;
+}
+.css-1jqq78o-placeholder {
+  color: var(--bs-neutral-500);
+  font-size: 14px;
+}
+.css-1nmdiq5-menu {
+  font-size: 14px;
+}
